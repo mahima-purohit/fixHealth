@@ -1,0 +1,40 @@
+.wrapper {
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: wrap;
+}
+.carouselWrapper {
+  position: relative;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.innerContainer1 {
+  text-align: center;
+}
+.leftNavigation {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.rightNavigation {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.heading {
+  font-size: 54px;
+  color: rgb(97, 167, 167);
+  font-weight: 600;
+}

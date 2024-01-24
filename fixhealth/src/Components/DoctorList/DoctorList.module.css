@@ -1,0 +1,12 @@
+.heading {
+  font-size: medium;
+  font-weight: 700;
+  color: rgb(75, 206, 189);
+}
+.text {
+  color: white;
+}
+.tableWrapper {
+  margin-top: 50px;
+  border-bottom: none;
+}

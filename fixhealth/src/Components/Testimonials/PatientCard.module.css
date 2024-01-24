@@ -1,0 +1,34 @@
+.card {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 20px;
+  overflow: auto;
+}
+.cardImage {
+  width: 105px;
+  height: 102px;
+}
+.cardMessage {
+  flex: 2;
+  color: white;
+}
+.cardName {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+.doctorName {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(97, 167, 167);
+}
+.issue {
+  color: grey;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}

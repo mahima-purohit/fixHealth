@@ -1,0 +1,9 @@
+.navBar {
+  height: 60px;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 70;
+  background-color: rgb(8, 109, 101);
+}
